@@ -1,3 +1,32 @@
-# imagem fundo{
-    background: url("floresta.jpg");
+html, body{
+    margin: 0%;
+}
+
+.fundo{
+    background:url(/imagem/porco.jpg);
+    height: 400px;
+    text-align: center;
+    }
+#titulo{
+    color: rgb(16, 228, 69);
+    padding-top: 5%;
+    font-size: 400%;
+}
+#subtitulo{
+    color: rgb(230, 234, 240);
+  }
+h3{
+    color: rgb(222, 233, 221);
+   padding-left: 10%; 
+   padding-right: 10%;
+}
+#onça{
+    padding: 5%;
+}
+#seção1{
+    background: rgb(167, 171, 182);
+}
+h2{
+    color: rgb(0, 7, 14);
+    text-align: center;
 }
