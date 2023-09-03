@@ -1,6 +1,33 @@
 html, body{
     margin: 0%;
 }
+header{
+    background: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    
+}
+#logo{
+    width: 75px;
+    position: absolute;
+    top: 3%;
+    
+    }
+#menu{
+    float: right;
+    margin-right: 5px;
+    list-style: none;
+    border: 20%;
+}
+li{
+    float: left;
+    padding: 2%;
+}
+li:hover{
+    background: rgb(172, 172, 76);
+}
 
 .fundo{
     background:url(/imagem/porco.jpg);
@@ -9,8 +36,8 @@ html, body{
     }
 #titulo{
     color: rgb(16, 228, 69);
-    padding-top: 5%;
-    font-size: 400%;
+    padding-top: 6%;
+    font-size: 350%;
 }
 #subtitulo{
     color: rgb(230, 234, 240);
@@ -24,9 +51,15 @@ h3{
     padding: 5%;
 }
 #seção1{
-    background: rgb(167, 171, 182);
+    background: #f7f7f7
 }
 h2{
 margin: 2%;
 text-align: center;
 }
+p{
+text-align: justify;
+margin-right: 5%;
+margin-left: 5%;
+}
+   
